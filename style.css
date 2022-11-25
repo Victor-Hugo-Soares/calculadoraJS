@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursiva', sans-serif;
+} /* pra tirar a padronização normal da página*/
+ 
+body{
+    background-color: #190d19;
+} /* cor de fundo */
+
+.calculator{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #000807;
+} /* basicamente aqui foi realizada a centralização da calculadora e deu o fundo preto dela*/
+
+table td{
+    display: inline-block;
+}
+
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #0c1a21;
+    color: #dfdfdf;
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+} /* formatando os botões, dando cores e tamanhos 
+ cursor pointer é pra aparecer a mãozinha quando passa em cima do botaõ*/
+
+.btn:hover {
+    background-color: #162f3b;
+}/* mudar a cor do botão quando passar o cursor em cima*/
+
+.ac {
+    background-color: #4c274a;
+}/*dar a cor do botão ac*/
+.ac:hover {
+    background-color: #663463;
+} /*mudar a cor do botão ac*/
+
+.especial {
+    background-color: #4c274a;
+}/* mudar a cor dos botões especiais*/
+
+.especial:hover {
+    background-color: #663463;
+}/* mudar a cor do botão quando passar o cursor em cima*/
+
+.igual {
+    background-color:#4c274a;
+}/* mudar a cor do botão igual*/
+
+.igual:hover {
+    background-color: #663463;
+}/* mudar a cor do botão quando passar o cursor em cima*/
+
+.result {
+    height: 100px;
+    color: #dfdfdf;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word; /* essa tag limita que oque o usuário digitar fique só na calculadora e não saia pra fora*/
+    border-bottom: 1px solid #663463;
+} /* formatando a parte onde mostra o resultado */
