@@ -1,5 +1,5 @@
-const resultado = document.querySelector(' .result ');
-const confirmar = document.querySelector(' .igual ');
+const resultado = document.querySelector(' .result '); //criando a constante sendo a seleção da classe .result do html
+const confirmar = document.querySelector(' .igual ');//criando a constante sendo a seleção da classe .igual do html
 
 function insert( valor ){
     resultado.innerHTML += valor;
